@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (5 pts)
+# DONE: 1. (5 pts)
 #   Immediately below this _TODO_, write code that:
 #     - Asks the user what their name is
 #     - Waits for the user to input their name and hit enter
@@ -27,9 +27,11 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+name = input("What is your name?")
+print(f"Greetings {name}. I hope you are having a nice day :).")
 
 ###############################################################################
-# TODO: 2. (5 pt)
+# DONE: 2. (5 pt)
 #   Now you might be thinking, why didn't we just use concatenation to do this?
 #   Isn't it just the same thing?
 #
@@ -72,3 +74,6 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+number = input("What is your favorite number?")
+answer = int(number)
+print(f"{name}, your favorite number is {number}. What a great number!")
